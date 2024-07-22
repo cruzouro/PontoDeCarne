@@ -1,3 +1,6 @@
+####### V1 22/07/2024
+####### Daniele Cruz
+
 try:
     point = int(input('Insira a temperatura da carne em Cº: '))
 except:
