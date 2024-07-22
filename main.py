@@ -2,23 +2,23 @@
 ####### Daniele Cruz
 
 try:
-    point = int(input('Insira a temperatura da carne em Cº: '))
+    point = int(input('\nInsira a temperatura da carne em Cº: '))
 except:
-    print('Tente novamente utilizando valores numericos')
+    print('\nTente novamente utilizando valores numericos')
 else:
     if point >= 48 and point <= 53:
-        print(f'\nMal Passado')
+        print(f'\nMal Passado\n')
     elif point >= 54 and point <= 59:
-        print(f'\nAo ponto para mal passado')
+        print(f'\nAo ponto para mal passado\n')
     elif point >= 60 and point <= 64:
-        print(f'\nAo ponto')
+        print(f'\nAo ponto\n')
     elif point >= 65 and point <= 69:
-        print(f'\nAo Ponto para bem passado')
+        print(f'\nAo Ponto para bem passado\n')
     elif point >= 70 and point <= 89:
-        print(f'\nBem passado')    
+        print(f'\nBem passado\n')    
     elif point >= 80:
-         print(f'\nPassado')
+         print(f'\nPassado\n')
     elif point <= 47:
-        print(f'\nA carne está Crua')
+        print(f'\nA carne está Crua\n')
 
         
